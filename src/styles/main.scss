@@ -1,0 +1,115 @@
+// brand colors
+$input-color: #C4DBE0;
+$classic-color: #2EB5E0;
+$urban-color: #0C6980;
+$accent-color: #191970;
+
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  align-items: center;
+  background: linear-gradient(to left, $urban-color, $urban-color 50%, $classic-color 50%);
+  width: 650px;
+  margin: auto;
+
+
+
+  header {
+    width: auto;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    width: auto;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    .search-box-wrapper {
+        display: flex;
+        background-color: $input-color;
+        margin: 15px;
+        height: 175px;
+        align-items: center;
+        display: block;
+        .search-box {
+          display: flex;
+          flex-direction: column;
+          h3 {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+          }
+          form {
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+          }
+        }
+        button {
+          border-radius: 2px;
+          border: 2px solid $accent-color;
+          box-shadow: 2px 2px $accent-color;
+          font-size: 60px;
+          font-family: 'Roboto', sans-serif;
+          color: $input-color;
+          font-size: 1.2rem;
+          margin: 10px auto;
+          padding: 1rem 2rem;
+          border-radius: 0.2rem;
+          background-color: $accent-color;
+          border: none;
+          width: 20%;
+          display: block;
+          border-bottom: 0.3rem solid transparent;
+        }
+    }
+    .dictionary-wrapper {
+      background-color: yellow;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-content: space-between;
+      margin: 15px;
+
+      .dictionary-content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-content: space-between;
+        // p {
+        //   align-content: center;
+        //   align-content: space-between;
+        // }
+      }
+      
+
+      .classic-dictionary {
+        background-color: $classic-color;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-content: space-between;
+        margin: 15px;
+        width: 350px;
+        height: 350px;
+      }
+      .urban-dictionary {
+        background-color: $urban-color;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-content: space-between;
+        margin: 15px;
+        width: 350px;
+        height: 350px;
+      }
+    }
+  }
+}
