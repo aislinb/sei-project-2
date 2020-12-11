@@ -1,12 +1,13 @@
 import React from 'react'
 
 function UrbanWordDefinition({ list }) {
+
   return (
     <>
       <div className="dictionary-content">
-        <h2>{list[0].word}</h2>
-        <h2 className="subtitle">🔞</h2>
-        <h4>{list[0].definition}</h4>
+        <h2 id="title-font">{list[0].word}</h2>
+        <div>🔞 </div>
+        <div><br/></div>
         {list.map((meaning, index) => (
           <div key={index}>
             {meaning.definition} <br />
@@ -23,4 +24,5 @@ function UrbanWordDefinition({ list }) {
     </>
   )
 }
+
 export default UrbanWordDefinition

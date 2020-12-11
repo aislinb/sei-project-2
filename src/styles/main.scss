@@ -4,6 +4,10 @@ $classic-color: #2EB5E0;
 $urban-color: #0C6980;
 $accent-color: #073D4B;
 
+root {
+  width: auto;
+}
+
 body {
   background: linear-gradient(to left, $urban-color, $urban-color 50%, $classic-color 50%);
   text-align: center;
@@ -11,8 +15,10 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  font-family: 'Special Elite', cursive;
   font-family: 'Roboto', sans-serif;
   min-width: 350px;
+  margin: 0 40px;
   h1 {
     display: flex;
     align-content: center;
@@ -21,29 +27,30 @@ body {
     font-weight: 800;
     color: $input-color;
     text-shadow: 2px 3px $accent-color;
+    font-family: 'Special Elite', cursive;
   }
   header {
     width: auto;
-    margin: 30px auto;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   main {
-    width: auto;
-    margin: 30px;
+    width: 80vw;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
     .search-box-wrapper {
-        margin: 15px;
-        height: 120px;
+        margin: 30px;
         .search-box {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-between;
-          align-content: center;
-          display: block;
+          // display: flex;
+          // flex-direction: column;
+          // align-items: center;
+          // justify-content: space-between;
+          // align-content: center;
+          // display: block;
           form {
             display: flex;
             justify-content: center;
@@ -74,34 +81,36 @@ body {
     .dictionary-wrapper {
       display: flex;
       flex-direction: row;
-      align-content: center;
-      align-content: space-between;
-      margin: 15px;
+      // align-content: center;
+      // align-content: space-between;
+      // margin: 15px;
       .dictionary-content {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-content: space-between;
-        padding: 0px 10px;
-        font-weight: normal;
-        .subtitle {
-          height: 15px;
-        }
+        // display: flex;
+        // flex-direction: column;
+        // align-content: center;
+        // align-content: space-between;
+        padding: 0px 10px 0 30px;
+        // font-weight: normal;
       }
       .classic-dictionary {
         display: flex;
-        width: 350px;
+        width: 50vw;
         flex-grow: 1;
+        text-shadow: 0.5px 0.5px $input-color;
+        text-align: right;
         p {
           font-size: 30px;
           text-shadow: 2px 2px $input-color;
         }
       }
       .urban-dictionary {
-        color: $input-color;
         display: flex;
-        width: 350px;
+        width: 50vw;
         flex-grow: 1;
+        color: $input-color;
+        text-shadow: 1px 1.5px $accent-color;
+        text-align: justify;
+        padding-right: 20px;
       p {
         padding-left: 200px;
         font-size: 30px;
@@ -110,4 +119,8 @@ body {
       }
     }
   }
+}
+#title-font {
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
 }

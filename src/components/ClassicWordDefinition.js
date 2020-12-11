@@ -1,12 +1,10 @@
 import React from 'react'
 
-function ClassicWordDefinition({ word, phonetics, meanings }) {
+function ClassicWordDefinition({  phonetics, meanings }) {
   return (
-    <>    { console.log(meanings) }
+    <>    
       <div className="dictionary-content">
-        <h2>{word}</h2>
-        <h4 className="subtitle">{phonetics[0].text}</h4>
-        <br></br>
+        <h2 id="title-font"> &nbsp; <em>{phonetics[0].text}</em></h2>
         <div className="definitions">
           {meanings.length > 0 ? 
             meanings.map((meaning, index) => (
