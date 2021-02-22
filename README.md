@@ -62,7 +62,7 @@ We developed quick wireframe sketches of how the application would look to prese
 
 We were required to sign up to Rapid API for the Urban Dictionary API usage rights in order to retrieve the secret key. 
 
-![Rapid API Page](./client/src/images/rapid-api-screenshot.png)
+![Rapid API Page](./src/images/rapid-api-screenshot.png)
 
 After creating our front-end we therefore created an .env file in which to store this, and set about fetching our data using Axios:
 
@@ -129,7 +129,7 @@ export default ClassicWordDefinition
 ### Insomnia 
 Insomnia was a new tool for us but it quickly became invaluable in working out the bits of data we wanted to use, how nested those were, and how many fields we wanted to render on the page. 
 
-![ContraDictionary Page](./client/src/images/main-search.png)
+![ContraDictionary Page](./src/images/main-search.png)
 
 ### Wins
 * Teamwork:
