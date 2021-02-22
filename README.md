@@ -61,6 +61,9 @@ Many of the APIs required a long-winded authorisation process in order to be iss
 We developed quick wireframe sketches of how the application would look to present to our instructor for sign-off, and moved on quickly to most tricky part which was working with our APIs.
 
 We were required to sign up to Rapid API for the Urban Dictionary API usage rights in order to retrieve the secret key. 
+
+![Rapid API Page](./client/src/images/rapid-api-screenshot.png)
+
 After creating our front-end we therefore created an .env file in which to store this, and set about fetching our data using Axios:
 
 ```
