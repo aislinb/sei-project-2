@@ -9,7 +9,7 @@ A surprise, two-day hackathon for General Assembly’s Software Engineering Imme
 
 ### Deployment
 
-This website was deployed using Netlify and is available  [here](https://reimagined2020.herokuapp.com/) . 
+This website was deployed using Netlify and is available  [here](https://contra-dictionary.netlify.app) . 
 
 ### Brief 
 
