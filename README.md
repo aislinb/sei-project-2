@@ -46,13 +46,13 @@ In pairs, we were required to build a React.js application, which consumed a pub
 	* VS Code
 
 ### How To Install
-1. Clone the project from GitHub onto your machine.
-2. Use `yarn` or `npm` to install dependencies from the package.json file.
-3. Start the server:  `yarn start`.
+1. Clone the project from GitHub onto your machine
+2. Use `yarn` or `npm` to install dependencies from the package.json file
+3. Start the server:  `yarn start`
 
 ### Concept
 
-In our pair, we researched which public APIs were available for us to use for no cost and, more importantly, provided clear documentation of how to implement them. Whilst Googling around, we saw that there were quite a few options for dictionaries, also falling upon the Urban Dictionary API. This led us to the idea of comparing the two side-by-side in a simple, and clean-looking single-page application, with one search field returning results from two APIs, providing the user with the traditional and slang definitions. 
+In our pair, we researched which public APIs were available for us to use for no cost and, more importantly, provided clear documentation of how to implement them. Whilst Googling around, we saw that there were quite a few options for dictionaries, also falling upon the Urban Dictionary API. This led us to the idea of comparing the two side-by-side in a simple, clean-looking single-page application, with one search field returning results from two APIs, providing the user with the traditional and slang definitions. 
 
 Many of the APIs required a long-winded authorisation process in order to be issued with the keys be able to use them, so we decided upon the Google Dictionary for both simplicity and speed.
 
@@ -60,7 +60,7 @@ Many of the APIs required a long-winded authorisation process in order to be iss
 
 We developed quick wireframe sketches of how the application would look to present to our instructor for sign-off, and moved on quickly to most tricky part which was working with our APIs.
 
-![Wireframe Sketch](./src/images/wireframe-sketch.png)
+![Wireframe Sketch](./src/images/wireframe.jpeg)
 
 
 
@@ -177,7 +177,7 @@ This was our first experience with pair-coding which was a real adjustment  in t
 * We made sure we shared the work by taking it in turns to code using the screen share function on Zoom 
 *  It was also excellent practice in trying to keep our syntax uniform, using the same naming convention styles, etc., and also being able to explain our thought processes and the logic behind our code when working through problems
 * Refactoring - I was very pleased with how we kept code simple and easy to read, by organising into a few smaller components. 
-* MVP - we kept the Minimum Viable Product simple and clean, as we wanted to really concentrate on consolidating the knowledge we’d gained throughout the previous week and get to grips with React and manipulating data. I think this worked really well - we delivered a completed product that was aligned with the brief and had decent styling too - and playing it safe built much needed confidence at this tiring stage in the course!
+* MVP - we kept the Minimum Viable Product simple and clean, as we wanted to really concentrate on consolidating the knowledge we’d gained throughout the previous week and get to grips with React and manipulating data. I think this worked really well - we delivered a complete product that was aligned with the brief and had decent styling, too. Playing it safe built some much needed confidence at this tiring stage in the course!
 
 ### Challenges
 * We wasted a fair bit of time at the beginning of the project searching for appropriate APIs
